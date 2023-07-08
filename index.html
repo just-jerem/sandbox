@@ -13,7 +13,7 @@
 
    <!-- mobile specific metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
  	<!-- CSS
    ================================================== -->
@@ -154,9 +154,10 @@
    <section id="bricks">
 
    	<div class="row masonry">
+		<div class="container">
 
    		<!-- brick-wrapper -->
-         <div class="bricks-wrapper">
+         	<div class="bricks-wrapper">
 
          	<div class="grid-sizer"></div>
 
@@ -538,17 +539,20 @@
 
         		</article> <!-- end article -->
 
-         </div> <!-- end brick-wrapper -->
+         	</div> <!-- end brick-wrapper -->
+		</div>
 
    	</div> <!-- end row -->
 
    	<div class="row">
 
 		<nav class="pagination">
-			<button id="previous-page-button" class="prev">&lt;</button>
-			<span id="page-number current"></span>
-			<button id="next-page-button" class="next">&gt;</button>
-		  </nav>
+			<div class="pagination-buttons">
+			<button id="previous-page-button">&lt;</button>
+			<div id="pagination-container" class="page-numbers"></div>
+			<button id="next-page-button">&gt;</button>
+			</div>
+		</nav>
 		  
 
    	</div>

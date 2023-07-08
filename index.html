@@ -544,19 +544,12 @@
 
    	<div class="row">
 
-   		<nav class="pagination">
-		      <span class="page-numbers prev inactive">Prev</span>
-		   	<span class="page-numbers current">1</span>
-		   	<a href="page/2/" class="page-numbers">2</a>
-		      <a href="#" class="page-numbers">3</a>
-		      <a href="#" class="page-numbers">4</a>
-		      <a href="#" class="page-numbers">5</a>
-		      <a href="#" class="page-numbers">6</a>
-		      <a href="#" class="page-numbers">7</a>
-		      <a href="#" class="page-numbers">8</a>
-		      <a href="#" class="page-numbers">9</a>
-		   	<a href="page/2/" class="page-numbers next">Next</a>
-	      </nav>
+		<nav class="pagination">
+			<button id="previous-page-button" class="prev">&lt;</button>
+			<span id="page-number current"></span>
+			<button id="next-page-button" class="next">&gt;</button>
+		  </nav>
+		  
 
    	</div>
 
@@ -642,6 +635,8 @@
    <script src="js/jquery.appear.js"></script>
    <script src="js/main.js"></script>
    <script src="js/pagination.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+
 
 </body>
 

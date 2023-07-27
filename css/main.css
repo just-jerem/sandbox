@@ -916,6 +916,7 @@ input::-moz-focus-inner {
   * ------------------------------------------------------------------- */
 .lienimg{
 	color:rgb(96, 201, 250);
+	text-decoration:none;
 
 }
 
